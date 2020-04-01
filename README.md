@@ -63,9 +63,9 @@ New "AzureMonitor" sink is added from Diagnostics Extension version 1.11. This "
 
 To enable "Azure Monitor" sink, a Managed Identity shall be assigned to the VM first so that the VM can access Azure Monitor metrics store. 
 
-![image-20200331221003987](C:\Users\hyuk\AppData\Roaming\Typora\typora-user-images\image-20200331221003987.png)
+![image-20200331221003987](./README.assets/image-20200331221003987.png)
 
-![](C:\Users\hyuk\AppData\Roaming\Typora\typora-user-images\image-20200331220504385.png)
+![](./README.assets/image-20200331220504385.png)
 
 
 
@@ -202,7 +202,7 @@ typeperf -qx
 
 #### SinkConfig Element
 
-Defines locations to send diagnostic data to. For example, "AzureMonitor(Metrics store)" or "ApplicationInsights" service.
+Defines locations to send diagnostic data to. For example, "AzureMonitor(Metrics store)" or ["ApplicationInsights"](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostics-extension-to-application-insights) service.
 
 ```
 <SinksConfig>
